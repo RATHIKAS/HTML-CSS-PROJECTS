@@ -1,0 +1,55 @@
+table,
+th,
+tr {
+
+  border: 1px solid white;
+}
+
+th {
+  color: white;
+  text-align: center;
+  background: #40B21B ;
+  height: 40px;
+}
+
+td {
+  height: 30px;
+  background: #b1e7a1;
+
+}
+
+#symbol {
+  font-size: 30px;
+  font-family: arial;
+  font-style: oblique;
+  color:#1dd41d;
+}
+
+#white {
+  background-color: #F6F9F5;
+}
+
+table {
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+#change {
+    color:#65DF3D;
+  font-weight:bold;
+    background-color:white;
+    font-size: x-large;
+  height: 30px;
+}
+
+#color {
+  
+  background-color: white;
+  color: black;
+}
+
+th[scope="row"] {
+  color: white;
+  background: #1dd41d;
+}
