@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 10px;
+}
+
+.container>a{
+    height: 160px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30%;
+    border: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: #19b1e3;;
+    color: #000;
+}
+.container>a:hover{
+    /* background-color: #d91d27; */
+    background-color: #ebb52c;
+    color:#d91d27;;
+}
+.head{
+    color: green;
+    text-align: center;
+    font-family:sans-serif;
+}
