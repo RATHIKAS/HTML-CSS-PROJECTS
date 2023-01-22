@@ -1,0 +1,67 @@
+.first-list {
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.flx {
+    display: flex;
+}
+
+.total-lists {
+    padding: 0;
+}
+
+.total-lists>ul {
+    padding: 0;
+    margin: 0;
+}
+
+.total-lists>ul>li {
+    padding: 10px 0px 10px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.total-lists>ul> {
+    border-bottom: 1px solid #eee;
+}
+
+.total-lists>ul>li:nth-child(1) {
+    background: #f6f8fb;
+}
+
+.company {
+    width: 15%;
+}
+
+.numbers {
+    width: 13%;
+}
+
+.values {
+    width: 16%;
+}
+
+.num {
+    width: 14%;
+}
+
+.product-images {
+    width: 20%;
+}
+
+.role-btns {
+    width: 16%;
+}
+
+.toggle-condition {
+    width: 9%;
+    position: relative;
+}
+
+.id-ele {
+    padding-left: 10px;
+}
+
+.list-pannel>ul>li {
+    color: #00000075;
+}

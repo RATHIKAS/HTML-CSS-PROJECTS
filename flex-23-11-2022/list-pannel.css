@@ -1,0 +1,36 @@
+.drop-downs::after {
+    content: '';
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid #5c6370;
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+    border-radius: 2px;
+    transform: rotate(180deg);
+}
+
+.drop-downs::before {
+    content: '';
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #5c6370;
+    position: absolute;
+    border-radius: 2px;
+    transform: rotate(-180deg);
+    position: absolute;
+    top: 3px;
+    right: -18px;
+}
+
+.list-pannel>UL {
+    padding: 15px 70px 15px 20px;
+    margin: 0;
+    border-bottom: 2px solid #f1f3f4;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.drop-downs {
+    position: relative;
+}
