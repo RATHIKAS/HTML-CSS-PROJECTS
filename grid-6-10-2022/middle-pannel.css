@@ -1,0 +1,141 @@
+.down-arrow {
+    width: 25px;
+    height: 25px;
+    opacity: 0.5;
+}
+
+input {
+    border: none;
+}
+
+.middle-pannel {
+    display: grid;
+    grid-template-columns: 73% auto;
+    padding: 0px 5%;
+    font-family: 'Lato';
+    background-color: #fdf4ef;
+}
+
+.search-field {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    padding: 10px;
+    justify-content: space-between;
+    border: 1px solid #ded6d3;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.right-div {
+    display: grid;
+    align-self: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 15px;
+}
+
+.labelEle {
+    padding: 6px 12px 7px;
+    border-radius: 3px;
+    color: #1d65f8;
+    box-shadow: 0px 12px 17px #d6cfca;
+    background-color: #fff;
+}
+
+.aside-section {
+    align-self: center;
+    margin: 40px 0px 0px;
+}
+
+input {
+    color: #a0a0a0c9;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.p-tag {
+    color: #817e7b;
+}
+
+.list-items li {
+    padding: 15px 0px;
+    border-bottom: 2px solid transparent;
+}
+
+.list-items li:hover {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #e46317;
+}
+
+.list-items li:hover a {
+    color: #eb8e5a;
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* .overall-boxes {
+        padding: 15px;
+        display: grid;
+        grid-template-rows: 49% 49%;
+        grid-template-columns: 49% 49%;
+        gap: 25px 25px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px #d6cfca;
+    }
+    
+    .box {
+        padding: 15px;
+        display: grid;
+        grid-template-rows: 30% 55% 15%;
+        row-gap: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px #d6cfca;
+    
+    }
+    
+    .dept-logo {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .margin-prop {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .department {
+        display: grid;
+        grid-template-columns: 17% auto;
+        align-items: center;
+        font-size: 9px;
+        font-family: 'Lato';
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+    }
+    
+    .space-content {
+        word-spacing: 4px;
+        color: #7f7f7f;
+    }
+    
+    .element {
+        font-family: 'Lato';
+        word-spacing: 2px;
+        line-height: 20px;
+    } */

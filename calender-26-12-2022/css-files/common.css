@@ -1,0 +1,27 @@
+:root {
+    --grid: grid;
+    --marg: 0;
+    --padge: 0;
+    --ft-family: 'Lato', sans-serif;
+    --ft-size: 13px;
+    --size: 14px;
+    --radius: 50%;
+    --big-size: 16px;
+    --font: 20px;
+    --clr: #000;
+    --align: center;
+    --white: #fff;
+    --solute: absolute;
+    --relate: relative;
+    --bc-color: #00bdd5;
+    --justify: space-between;
+    --repeat: repeat(2, auto);
+    --roundClr: #ecfeff;
+}
+
+
+.container {
+    display: var(--grid);
+    grid-template-columns: 18% 60% 22%;
+    font-family: var(--ft-family);
+}

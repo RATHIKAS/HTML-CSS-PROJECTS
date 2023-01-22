@@ -1,0 +1,38 @@
+.common-property {
+    margin: 10px auto;
+    padding: 15px 0px;
+    width: 200px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.arrow-top {
+    background-color: #8f42ec;
+}
+
+.arrow-bottom {
+    background-color: #34dd87;
+}
+
+.arrow-common::after {
+    content: "";
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 5px;
+    left: -12px;
+    transform: rotate(43deg);
+}
+
+.arrow-top::after {
+    background-color: #8f42ec;
+}
+
+.arrow-bottom::after {
+    background-color: #34dd87;
+}
