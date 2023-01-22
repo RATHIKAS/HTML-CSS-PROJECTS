@@ -1,0 +1,47 @@
+.third-pannel {
+    grid-template-rows: repeat(13, auto);
+}
+
+.third-pannel>ul {
+    margin: 0;
+    padding: 8px 0px 8px 47px;
+    grid-template-columns: repeat(5, 215px);
+    border-bottom: 1px solid #e9ebec;
+}
+
+.third-pannel>ul>li>a {
+    font-size: 13px;
+    color: #818283;
+}
+
+.smart-user>img {
+    height: 19px;
+    left: -35px;
+    position: absolute;
+}
+
+
+.most-comm {
+    font-size: 13px;
+    display: grid;
+    padding: 1px 0px;
+    grid-template-columns: repeat(5, 215px);
+    padding-left: 47px;
+    align-items: center;
+    border-bottom: 1px dotted #e9ebecc9;
+}
+
+.name-profiles {
+    gap: 5px;
+    align-items: center;
+    grid-template-columns: 25% auto
+}
+
+.comm-prop {
+    width: 42px;
+    height: 39px;
+}
+
+.special-color {
+    color: #2c92e1;
+}

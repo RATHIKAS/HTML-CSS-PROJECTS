@@ -1,0 +1,244 @@
+.common-margin-prop {
+    margin: 0;
+}
+
+.main-pannel {
+    display: grid;
+    grid-template-rows: 7% auto;
+}
+
+.setting-image {
+    height: 21px;
+    width: 21px;
+}
+
+.profile-logo {
+    width: 45px;
+    height: 45px;
+}
+
+.same-elements {
+    width: 100%;
+}
+
+.top-pannel {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 4px 25px;
+    align-items: center;
+    background: #f2f5f7;
+}
+
+.image-section {
+    display: grid;
+    align-items: center;
+    gap: 6px;
+    grid-template-columns: auto auto;
+}
+
+
+.input-section {
+    margin: 15px 0px 0px 17%;
+}
+
+.comon-font-property {
+    font-size: 14px;
+}
+
+.ft-size {
+    padding: 4px 0px 0px 123px;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    color: #0000009c;
+}
+
+.filed {
+    width: 550px;
+    padding: 3px 0px;
+    margin-left: 32px;
+    outline: none;
+}
+
+.filed:focus {
+    border-radius: 2px;
+    border: 1px solid #18b2c7;
+}
+
+.frame-work-section {
+    margin: 17px 67px 0px;
+}
+
+.adjust-prop {
+    padding: 4px 0px 0px 30px
+}
+
+.clr-prop {
+    color: #0000007a;
+}
+
+.adjust-property {
+    padding: 4px 0px 0px 16px;
+}
+
+.some-property {
+    padding: 0 0 0 23%;
+}
+
+tr,
+td {
+    border: 1px solid #e8edf1;
+}
+
+td {
+    padding: 2px 7px;
+    border-radius: 5px;
+}
+
+
+table {
+    border-spacing: 15px;
+}
+
+td>a>span {
+    font-size: 14px;
+    color: #000;
+}
+
+
+td {
+    width: 28%;
+}
+
+.grid-property {
+    width: 180px;
+    display: grid;
+    grid-template-columns: 25% auto;
+    gap: 6px;
+    align-items: center;
+}
+
+
+.check-section {
+    display: grid;
+    grid-template-columns: 27% auto;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.list-pannel {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 16%);
+}
+
+
+.check-section>form {
+    padding-left: 134px;
+}
+
+.list-pannel>a {
+    display: grid;
+    grid-template-columns: 20% auto;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e8edf1;
+    border-radius: 4px;
+    color: #000;
+}
+.list-pannel>a>span{
+    font-size: 14px;
+}
+
+.list-pannel>a:nth-child(1) {
+    color: #fff;
+    background: linear-gradient(to right, #1ab3be, #3dc0a5);
+}
+
+.check-box {
+    width: 30px;
+    height: 17px;
+    vertical-align: top;
+    accent-color: #1ab3be;
+}
+
+.self-prop {
+    display: grid;
+    row-gap: 9px;
+}
+
+.place-items {
+    font-size: 15px;
+}
+
+.inputs-fields {
+    font-size: 13px;
+}
+
+
+.boxs-field {
+    width: 96%;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid #e8edf1;
+}
+
+.set-of-filed {
+    margin-top: 20px;
+    padding: 0 0 0 27%;
+}
+
+.forms-section {
+    width: 78%;
+    padding: 20px;
+    border: 1px solid #e8edf1;
+    border-radius: 3px;
+}
+
+.form-section>form>input {
+    width: 17px;
+    height: 14px;
+}
+
+.btn-fields {
+    margin-top: 24px;
+    padding: 0px 0px 30px 27%;
+}
+
+.create-btn {
+    background: linear-gradient(to right, #1ab3be, #3dc0a5);
+    margin-right: 10px;
+    border: none;
+}
+
+.cancel-btn {
+    border: 1px solid #e8edf1;
+}
+
+.q-mark {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    background: #00aaa3;
+    color: #fff;
+    position: fixed;
+    right: 28px;
+    bottom: 25px;
+    font-size: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns {
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #000;
+    font-size: 14px;
+}
+
+.btn-fields>a:nth-child(1) {
+    color: #fff;
+}

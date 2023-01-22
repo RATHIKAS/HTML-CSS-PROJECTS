@@ -1,0 +1,75 @@
+.green-btn {
+    color: #48b660;
+    background-color: #f2faf5;
+    padding: 2px 7px 4px;
+    border: 1px solid #d7efdb;
+    width: 46px;
+    border-radius: 3px;
+}
+
+.blue-btn {
+    background-color: #63b5df;
+    color: #fff;
+    width: 54px;
+    border: none;
+    padding: 3px 7px 4px;
+    border-radius: 3px;
+}
+
+#not-btn {
+    width: 115px;
+}
+
+.red-btn {
+    width: 115px;
+    border-radius: 3px;
+    padding: 4px 8px;
+    background-color: #fdf3f3;
+    color: #e35d5e;
+    border: 1px solid #f8d9d9;
+}
+
+.orange-btn {
+    width: 73px;
+    border-radius: 3px;
+    padding: 4px 8px;
+    background-color: #fefae8;
+    color: #ff942f;
+    border: 1px solid #eeedc9;
+}
+
+.gray-btn {
+    width: 147px;
+    border-radius: 3px;
+    padding: 4px 8px;
+    background-color: #f6f8fb;
+    color: #000;
+    border: 1px solid #e2e8f2;
+}
+
+.expert-btn {
+    padding: 4px 8px;
+    border-radius: 30px;
+    background-color: #41b15a;
+    color: #fff;
+    margin-right: 5px;
+    border: none;
+}
+
+.wizard-btn {
+    width: 50px;
+    padding: 4px 8px;
+    border-radius: 3px;
+    background-color: #696dae;
+    color: #fff;
+    margin-right: 5px;
+    border: none;
+}
+
+.desk-btn {
+    padding: 5px 7px;
+    background-color: #6188da;
+    color: #fff;
+    border-radius: 3px;
+    width: 230px;
+}

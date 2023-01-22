@@ -1,0 +1,46 @@
+.second-pannel {
+    grid-template-columns: repeat(6, auto);
+    width: 60%;
+    font-size: 13px;
+    margin: 0;
+    padding: 0px 0px 0px 47px;
+    gap: 10px;
+}
+
+.second {
+    border-bottom: 1px solid #e9ebec;
+}
+
+.second-pannel>li {
+    padding: 12px 0px 13px 7px;
+}
+
+.second-pannel>li:hover {
+    border-bottom: 1px solid #000;
+}
+
+.second-pannel>li>a:hover {
+    color: #000;
+}
+
+.second-pannel>li:nth-child(1)>a {
+    color: #000;
+}
+
+.second-pannel>li:nth-child(1) {
+    border-bottom: 1px solid #000;
+}
+
+.second-pannel>li>a {
+    color: #818283;
+}
+
+.arrow-one::after {
+    content: " ";
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 3px solid #999999;
+    position: absolute;
+    top: 22px;
+    right: 7px;
+}
