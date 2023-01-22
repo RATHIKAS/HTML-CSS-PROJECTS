@@ -1,0 +1,133 @@
+.main {
+    width: 83%;
+    padding: 22px 40px 0px;
+}
+
+.left-side>p {
+    margin: 0px 0px 4px;
+    font-weight: var(--ft-weight);
+    font-size: 18px;
+}
+
+.left-side>span {
+    font-size: var(--ft-size);
+    color: #767579;
+}
+
+.system-image {
+    display: var(--flex);
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.system-image>div {
+    padding-top: 10px;
+}
+
+.ft-weight {
+    font-size: var(--size);
+    font-weight: var(--ft-weight);
+}
+
+.system-image>div>p {
+    margin-bottom: 4px;
+}
+
+.system-image>div>span {
+    font-size: var(--ft-size);
+}
+
+.system-image>div>div {
+    margin-top: 16px;
+}
+
+.system-image>img {
+    width: 220px;
+    height: 170px;
+}
+
+.comm-btn {
+    padding: 3px 12px 4px;
+    border-radius: 4px;
+    font-size: 11px;
+}
+
+.dismiss-btn {
+    border: 1px solid var(--black);
+    margin-right: 11px;
+    color: var(--black);
+}
+
+.update-btn {
+    color: var(--color);
+    border: 1px solid #2bacbd;
+    background-color: #00bdd5;
+}
+
+.top-main {
+    justify-content: var(--space);
+    display: var(--flex);
+    padding-bottom: 10px;
+}
+
+.chart-div {
+    width: 240px;
+    display: var(--flex);
+    padding: 0px 10px;
+    flex-direction: column;
+    align-items: var(--align);
+    gap: 13px;
+    border: 2px solid #f5f5f6;
+}
+
+.chart-div>span {
+    width: 240px;
+    font-size: var(--ft-size);
+    text-align: var(--align);
+}
+
+.chart-div>p {
+    margin: var(--marg);
+
+}
+
+.btns {
+    padding-bottom: 17px;
+}
+
+.chart-div>div>a:nth-child(1) {
+    margin-right: 10px;
+    color: var(--black);
+}
+
+.round-chart {
+    width: 200px;
+    font-size: 20px;
+    font-weight: var(--ft-weight);
+    height: 110px;
+    position: relative;
+    display: var(--flex);
+    align-items: flex-end;
+    justify-content: var(--align);
+    overflow: hidden;
+    color: #8353e0;
+
+}
+
+.round-chart::after {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 22px;
+    height: 135px;
+    width: 135px;
+    border: 23px solid;
+    border-color: #8353e0 #8353e0 #d9caf4 #d9caf4;
+    transform: rotate(-86deg);
+    border-radius: 50%;
+}
+
+.upgrade {
+    color: #8452ea;
+    background-color: #f4ecfd;
+}

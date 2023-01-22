@@ -1,0 +1,126 @@
+:root {
+    --flex: flex;
+    --align: center;
+    --justify: center;
+    --marg: 0;
+    --padd: 0;
+    --space: space-between;
+    --color: #fff;
+    --gapEle: 10px;
+    --ft-size: 13px;
+    --size: 14px;
+    --ft-weight: 600;
+    --black:#000;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    display: var(--flex);
+}
+
+.aside {
+    width: 17%;
+    padding: 5px 15px 0px;
+    border-right: 2px solid #f6f6f6;
+}
+
+.ul-list {
+    margin: var(--marg);
+    padding: 10px 0px 10px 0px;
+}
+
+.head-pannel>div>h4 {
+    margin: 0px 0px 3px 0px;
+}
+
+.head-pannel>div>span {
+    font-size: var(--ft-size);
+    color: #767579;
+}
+
+.head-pannel {
+    display: var(--flex);
+    align-items: var(--align);
+    gap: var(--gapEle);
+    font-size: var(--size);
+}
+
+.ul-list>li {
+    padding: 9px 7px 9px 10px;
+    margin-bottom: 2px;
+}
+
+.ul-list>li:hover {
+    background: #00bdd5;
+    border-radius: 3px;
+}
+
+.ul-list>li:hover a {
+    color: var(--color);
+}
+
+.ul-list>li:nth-child(6) {
+    background: #00bdd5;
+    border-radius: 3px;
+}
+
+.ul-list>li:nth-child(6)>a {
+    color: var(--color);
+}
+
+.same-prop {
+    display: var(--flex);
+    align-items: var(--align);
+    gap: var(--gapEle);
+    font-size: var(--ft-size);
+    color: #767579;
+}
+
+.ul-list>li:last-child {
+    display: var(--flex);
+    justify-content: var(--space);
+}
+
+.round {
+    height: 13px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    color: var(--color);
+    font-size: 11px;
+    text-align: center;
+    padding: 3px 6px;
+}
+
+.sergey-div>p {
+    margin: var(--marg);
+    font-weight: var(--ft-weight);
+    font-size: var(--size);
+    margin-bottom: 5px;
+}
+
+.sergey-div>span {
+    font-size: var(--ft-size);
+    color: #767579;
+}
+
+.profiles {
+    display: var(--flex);
+    align-items: var(--align);
+    gap: var(--gapEle);
+}
+
+.separate {
+    display: var(--flex);
+    flex-direction: column;
+    height: 680px;
+    justify-content: var(--space);
+}
