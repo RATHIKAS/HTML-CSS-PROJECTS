@@ -1,0 +1,132 @@
+.container {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    position: relative;
+}
+
+
+body {
+    margin: 0;
+}
+
+.common-prop {
+    padding: 0;
+    margin: 0;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.zh-logo {
+    height: 25px;
+    width: 75px;
+}
+
+.left-lists {
+    font-size: 14px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 14% auto;
+}
+
+.first-pannel {
+    display: grid;
+    height: 10%;
+    padding: 5px 10px;
+    grid-template-columns: 42% 11%;
+    justify-content: space-between;
+}
+
+.left-lists>ul {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(8, auto);
+}
+
+.left-lists>ul>li {
+    padding: 5px 0px;
+}
+
+
+.bc-image {
+    position: relative;
+}
+
+.right-lists {
+    display: grid;
+    grid-template-columns: 10% 50% auto;
+    gap: 10px;
+}
+
+.common-img {
+    height: 28px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.search-icon {
+    height: 31px;
+    width: 14px;
+    position: absolute;
+    top: 2px;
+    background: url(images/bc-search-image.svg) -254px 11px;
+    background-size: 536px 64px;
+    background-repeat: no-repeat;
+}
+
+.right-lists>div:nth-child(2)>span:first-child {
+    height: 26px;
+    width: 21px;
+    top: 11px;
+    background: url(images/world-icons.png)-280px 6px;
+    background-size: 301px 35px;
+    background-repeat: no-repeat;
+    position: absolute;
+
+}
+
+.small-world:after {
+    content: "English";
+    padding: 2px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    top: 3px;
+}
+
+.man-image {
+    height: 36px;
+    width: 36px;
+}
+
+
+.arrow-ele::after {
+    content: " ";
+    width: 7px;
+    height: 1px;
+    top: 13px;
+    background: #000;
+    transform: rotate(-45deg);
+    position: absolute;
+    right: 6px;
+
+}
+
+.arrow-ele::before {
+    content: " ";
+    width: 7px;
+    height: 1px;
+    right: 10px;
+    top: 13px;
+    background: #000;
+    position: absolute;
+    transform: rotate(45deg);
+}

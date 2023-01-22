@@ -1,0 +1,165 @@
+.common-prop>li>p {
+    display: none;
+}
+
+.common-prop>li {
+    position: relative;
+}
+
+.none {
+    z-index: 13;
+}
+
+.common-prop>li:hover .none {
+    display: block;
+    position: absolute;
+    top: 20px;
+    padding: 6px;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 2px 0px 20px 5px #10102b26;
+    white-space: nowrap;
+}
+
+.flags {
+    padding: 10px;
+    border: 2px solid #ccc;
+    display: grid;
+    position: absolute;
+    top: 45px;
+    right: 60px;
+    grid-template-columns: 50% 50%;
+    display: none;
+    z-index: 10;
+    background: #fff;
+    box-shadow: 2px 3px 10px #10102b26;
+}
+
+.small-part:hover .flags {
+    animation: blink 0.5s linear 1;
+    display: flex;
+}
+
+.flags::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #e0e0e0;
+    position: absolute;
+    right: 15px;
+    margin: auto;
+    top: -11px;
+}
+
+.first-flag {
+    height: 16px;
+    width: 20px;
+    background: url(images/country-flags.png) no-repeat -1px 0px;
+    background-size: 471px 33px;
+    position: absolute;
+    top: 4px;
+}
+
+.second-flag {
+    height: 18px;
+    width: 25px;
+    background: url(images/country-flags.png) no-repeat -101px 0px;
+    background-size: 486px 34px;
+    padding-left: 20px;
+}
+
+
+.third-flag {
+    height: 18px;
+    width: 25px;
+    background: url(images/country-flags.png) no-repeat -227px 0px;
+    background-size: 495px 34px;
+    padding-left: 20px;
+}
+
+.fourth-flag {
+    height: 18px;
+    width: 25px;
+    background: url(images/country-flags.png) no-repeat -408px 0px;
+    background-size: 488px 38px;
+    padding-left: 18px;
+    border: 1px solid #eee;
+}
+
+.five-flag {
+    height: 18px;
+    width: 25px;
+    background: url(images/country-flags.png) no-repeat -324px 0px;
+    background-size: 486px 30px;
+    padding-left: 20px;
+}
+
+
+.small-flag {
+    margin: 5px;
+    padding: 17px 0px 15px 15px;
+
+}
+
+.small-flag>li>a:hover {
+    color: #03a9f5;
+}
+
+.small-flag>li {
+    padding-bottom: 15px;
+}
+
+.small-flag>li>a {
+    font-size: 13px;
+}
+
+.small-flag>li>a>span:nth-child(2) {
+    padding-left: 17px;
+}
+
+#ep-flag {
+    padding-left: 35px;
+}
+
+.six-flag {
+    height: 18px;
+    width: 25px;
+    background: url(images/country-flags.png) no-repeat -182px 0px;
+    background-size: 486px 30px;
+    padding-left: 20px;
+}
+
+.seven-flag {
+    height: 18px;
+    width: 25px;
+    background: url(images/country-flags.png) no-repeat -365px -15px;
+    background-size: 486px 30px;
+    padding-left: 20px;
+}
+
+.et-flag {
+    height: 16px;
+    width: 23px;
+    background: url(images/country-flags.png) no-repeat 2px 0px;
+    background-size: 521px 32px;
+    position: absolute;
+    top: 5px;
+}
+
+.nine-flag {
+    height: 18px;
+    width: 25px;
+    background: url(images/country-flags.png) no-repeat -385px 0px;
+    background-size: 486px 30px;
+    padding-left: 20px;
+}
+
+.ten-flag {
+    height: 18px;
+    width: 25px;
+    background: url(images/country-flags.png) no-repeat -122px 0px;
+    background-size: 486px 30px;
+    padding-left: 20px;
+}

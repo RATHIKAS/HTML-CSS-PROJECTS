@@ -1,0 +1,184 @@
+.center-pannel {
+    text-align: center;
+    position: relative;
+}
+.z-tick::before {
+    content: " ";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 554px;
+    top: 1px;
+    border: 1px solid #ffbc06;
+    border-radius: 100%;
+}
+
+.z-tick::after {
+    content: " ";
+    height: 8px;
+    width: 4px;
+    border: solid #ffbc06;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 5px;
+    left: 561px;
+}
+
+.tick::before {
+    content: " ";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 730px;
+    top: 1px;
+    border: 1px solid #ffbc06;
+    border-radius: 100%;
+}
+
+.tick::after {
+    content: " ";
+    height: 8px;
+    width: 4px;
+    border: solid #ffbc06;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 5px;
+    left: 737px;
+}
+
+.hd-pannel>div {
+    display: grid;
+    grid-template-columns: 15% 15%;
+    justify-content: center;
+}
+
+.rounds ::before {
+    content: " ";
+    height: 16px;
+    width: 16px;
+    border: 1px solid;
+    border-radius: 100%;
+    position: absolute;
+    right: 61%;
+}
+
+.size {
+    font-size: 17px;
+}
+
+.hd-pannel {
+    padding-top: 4%;
+    color: #fff;
+}
+
+.hd-pannel>h1 {
+    font-size: 48px;
+}
+
+.hd-pannel>p {
+    font-size: 19px;
+}
+
+.subscription-bx {
+    background-color: #3361c2;
+    border-radius: 4px 0px 0px 4px;
+    padding: 10px 20px;
+
+}
+
+.subscription-box {
+    padding: 5% 0px 0px 0px;
+}
+
+.subscription-bx:after {
+    content: " ";
+    height: 20px;
+    width: 20px;
+    background: #3361c2;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 96px;
+    left: 688px;
+}
+
+.pay-bx {
+    border-radius: 0px 4px 4px 0px;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.pay-bx ::after {
+    content: " ";
+    height: 20px;
+    width: 20px;
+    background: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 96px;
+    left: 830px;
+}
+
+.pay-bx:hover .pay-bx::after {
+    content: " ";
+    height: 20px;
+    width: 20px;
+    background: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 19px;
+    left: 830px;
+}
+
+.time-calender {
+    color: #fff;
+    display: none;
+    margin: 1% 0px 0px 48%;
+}
+
+.time-calender>span {
+    margin-right: 10px;
+}
+
+.slider {
+    padding: 2px 26px;
+    border: 1px solid #3361c2;
+    border-radius: 30px;
+    background: #fff;
+}
+
+.slider::after {
+    content: " ";
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: #3361c2;
+    position: absolute;
+    top: 2px;
+    left: 6px;
+
+}
+
+.free-btn {
+    background: #feda68;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #000;
+}
+
+.free-btn::after {
+    content: " ";
+    height: 10px;
+    width: 10px;
+    transform: rotate(50deg);
+    position: absolute;
+    left: -4px;
+    top: 8px;
+    background: #feda68;
+}
+
+.center-pannel {
+    height: 600px;
+    background-color: #101010;
+}

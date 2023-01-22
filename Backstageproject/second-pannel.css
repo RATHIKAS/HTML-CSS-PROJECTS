@@ -1,0 +1,154 @@
+.back-stage {
+    background: url(images/product-icons-first.svg) no-repeat -566px 1px;
+    background-size: 870px 219px;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+}
+
+
+.second-pannel {
+    display: grid;
+    grid-template-columns: 20% 50%;
+    justify-content: space-between;
+    padding: 10px 100px 6px;
+    background: #101010;
+}
+
+.logo-sides>a:nth-child(2) {
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 60px;
+}
+
+.down-row:after {
+    content: ' ';
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    height: 0;
+    width: 0px;
+    position: absolute;
+    top: 23px;
+    margin-left: 7px;
+}
+
+.logo-sides {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    align-items: center;
+}
+
+.lists-sides>ul {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+}
+
+.lists-sides>ul>li {
+    padding: 16px 0px;
+    margin-right: 37px;
+}
+
+.lists-sides>ul>li>a {
+    color: #fff;
+}
+
+.under-line {
+    border-bottom: 3px solid #fff;
+}
+
+.features:hover .inside-ul {
+    animation: blink 0.3s linear 1;
+    display: block;
+}
+
+.solution:hover .second-ul {
+    animation: blink 0.3s linear 1;
+    display: block;
+}
+
+@keyframes blink {
+    from {
+        transform: translateY(10px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+
+.inside-ul {
+    width: 200px;
+    margin: 0;
+    box-shadow: 4px 2px 20px #c1bfbf91;
+    padding: 20px 25px;
+    display: none;
+    background: #fff;
+}
+
+.common-position {
+    position: absolute;
+    top: 47px;
+    left: -58px;
+    z-index: 25;
+}
+
+
+
+.inside-ul>li {
+    padding-bottom: 15px;
+}
+
+.inside-ul>li:nth-child(8) {
+    text-align: center;
+    padding: 10px 5px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.inside-ul>li:hover {
+    color: #03a9f5;
+}
+
+.inside-ul>li>a:hover {
+    color: #03a9f5;
+}
+
+.source:hover .third-ul {
+    animation: blink 0.3s linear 1; 
+    display: block;
+}
+
+
+.second-ul {
+    margin: 0;
+    padding: 10px 20px;
+    width: 143px;
+    box-shadow: 0px 0px 7px #eee;
+    background: #fff;
+    display: none;
+}
+
+.second-ul>li {
+    padding-bottom: 10px;
+}
+
+.third-ul {
+    margin: 0;
+    padding: 10px 20px;
+    width: 150px;
+    box-shadow: 0px 0px 7px #eee;
+    background: #fff;
+    display: none;
+}
+
+.third-ul>li {
+    padding-bottom: 10px;
+}
+
+.third-ul>li>a:hover {
+    color: #03a9f5;
+}

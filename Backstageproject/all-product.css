@@ -1,0 +1,70 @@
+.product-all:hover .mega-menulists {
+    display: block;
+    z-index: 14;
+    position: absolute;
+    top: 31px;
+    border-radius: 3px;
+}
+
+.mega-menulists {
+    padding: 25px;
+    background: #171d2e;
+    white-space: nowrap;
+    display: none;
+}
+
+.mega-menulists>li>a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.mega-menulists>li>a:hover {
+    color: #03a9f5;
+}
+
+.mega-menulists>li {
+    line-height: 1.7;
+
+}
+
+.some-property {
+    margin-bottom: 20px;
+}
+
+.mt-Place::before {
+    content: ' ';
+    height: 1px;
+    position: absolute;
+    top: -5px;
+    left: -24px;
+    background: #424654;
+    width: 202px;
+}
+
+.mt-Place::after {
+    content: ' ';
+    background: url(images/white-icon-sprite.png) -1px -141px;
+    background-size: 500px 200px;
+    position: absolute;
+    top: 0px;
+    right: 23px;
+    height: 30px;
+    width: 30px;
+}
+
+
+.product-types {
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+
+.mega-product-lists {
+    display: grid;
+    padding: 20px 45px 0px 20px;
+    gap: 5px;
+    grid-template-rows: repeat(2, 30%);
+}
+
+.margin-sec {
+    margin: 0;
+}
