@@ -1,0 +1,20 @@
+.container {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: radial-gradient(#fff 60%, transparent 20%), conic-gradient(#ff0000 5%, #fff 5% 7%, #FFA500 7% 10%, #FFFF00 10% 20%, #fff 20% 25%,
+            #00FF00 25% 46%, #fff 46% 50%, #0000FF 50% 65%, #fff 65% 68%, #A020F0 65% 70%);
+    animation: circles 0.4s linear infinite;
+    animation-direction: alternate-reverse;
+    margin: 0 auto;
+}
+
+@keyframes circles {
+    from {
+        transform: rotate(30deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

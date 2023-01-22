@@ -1,0 +1,88 @@
+.container {
+    height: 600px;
+    width: 600px;
+    border: 1px solid;
+    position: relative;
+    margin: 0 auto;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.bc-color {
+    background-color: #000;
+}
+
+.radius {
+    border-radius: 50%;
+}
+
+.head {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.left-eye {
+    height: 20px;
+    width: 20px;
+    top: 30px;
+    left: 20px;
+    background-color: #ff0000;
+}
+
+.right-eye {
+    height: 20px;
+    width: 20px;
+    top: 30px;
+    right: 20px;
+    background-color: #ff0000;
+}
+
+.body {
+    height: 200px;
+    width: 90px;
+    border-radius: 50px;
+    margin: 10px auto;
+}
+
+.left {
+    height: 150px;
+    width: 30px;
+    top: 280px;
+    right: 307px;
+    border-radius: 30px;
+}
+
+.right {
+    height: 150px;
+    width: 30px;
+    top: 280px;
+    right: 265px;
+    border-radius: 30px;
+}
+
+.right-hand {
+    height: 30px;
+    width: 130px;
+    top: 151px;
+    right: 165px;
+    transform: rotate(124deg);
+    border-radius: 30px;
+    animation: moment 1s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+
+
+@keyframes moment {
+    from {
+        transform: translateY(10px);
+    }
+
+    to {
+        transform: translateY(20px);
+    }
+}

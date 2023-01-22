@@ -1,0 +1,63 @@
+.element {
+    height: 160px;
+    width: 104px;
+    border-radius: 60px;
+    box-shadow: 0 0 10px grey;
+    border: 1px solid;
+    position: relative;
+    transform: rotateY(30deg);
+    background: #FFFFE0;
+}
+
+
+.in-line {
+    display: inline-block;
+}
+
+.container {
+    margin: 0 600px;
+}
+
+.inside {
+    width: 50px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid;
+    position: absolute;
+    top: 73px;
+    left: 25px;
+    background: #87ee875e;
+    animation: round 2s linear infinite alternate;
+}
+
+.small {
+    width: 15px;
+    height: 15px;
+    border: 1px solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 16px;
+    background: #0000008a;
+    animation: greek 0.9s linear infinite alternate;
+}
+
+@keyframes round {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes greek {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(10px);
+    }
+}

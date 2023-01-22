@@ -1,0 +1,25 @@
+img {
+    height: 240px;
+    width: 350px;
+    border: 1px solid #7cfc00;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px 1px;
+}
+
+.container>img:hover {
+    animation: shake 0.1s linear infinite alternate;
+}
+
+@keyframes shake {
+    from {
+        transform: translate(0px);
+    }
+
+    to {
+        transform: translate(15px);
+    }
+}

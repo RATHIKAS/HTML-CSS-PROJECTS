@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .natural {
+            height: 300px;
+            width: 400px;
+            animation: split 2s linear infinite;
+
+        }
+
+        .naturals {
+            height: 300px;
+            width: 400px;
+            animation: rounds 2s linear infinite;
+        }
+
+        @keyframes split {
+            0% {
+                transform: scaleY(0.2);
+            }
+
+            25% {
+                transform: scaleY(0.5);
+            }
+
+            100% {
+                transform: scaleY(0.8);
+            }
+        }
+
+        @keyframes rounds {
+            0% {
+                top: 0px;
+                /* transform: scaleX(0.2); */
+            }
+
+            25% {
+                /* transform: rotate(40deg); */
+                top: 200px;
+                /* transform: scaleX(0.5); */
+            }
+
+            100% {
+
+                /* transform: scaleX(0.8); */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img alt="natural-image" title="natural-image" src="images/natural-image.jpg" class="natural">
+        <img alt="natural-image" title="natural-image" src="images/natural-image.jpg" class="naturals">
+    </div>
+</body>
+
+</html>
