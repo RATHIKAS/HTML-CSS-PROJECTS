@@ -1,0 +1,93 @@
+.absolute-part {
+    position: absolute;
+}
+.relative-part {
+    position: relative;
+}
+.image-container {
+    right: 65px;
+    top: 70px;
+}
+.first-round {
+    height: 550px;
+    width: 550px;
+    border-radius: 50%;
+    border: 2px solid #9fa5f7;
+}
+.rnd-image-1 {
+    top: -25px;
+    left: 210px;
+}
+.rnd-image-2 {
+    top: 50px;
+    right: 40px;
+}
+.rnd-image-3 {
+    top: 280px;
+    right: -36px;
+}
+.rnd-image-4 {
+    top: 330px;
+    left: -20px;
+}
+.rnd-image-5 {
+    bottom: -30px;
+    left: 170px;
+}
+.rnd-image-6 {
+    bottom: 20px;
+    right: 65px;
+}
+.rnd-image-7 {
+    top: 115px;
+    left: -9px;
+}
+.people-image {
+    width: 60px;
+}
+.second-round {
+    top: 84px;
+    right: 60px;
+    height: 385px;
+    width: 385px;
+    border-radius: 50%;
+    border: 2px solid #9fa5f7;
+}
+.rnd-1 {
+    top: 40px;
+    left: 13px;
+}
+.rnd-2 {
+    top: 210px;
+    left: -26px;
+}
+.rnd-3 {
+    right: -14px;
+    top: 70px;
+}
+.rnd-4 {
+    top: 348px;
+    left: 114px;
+}
+.third-round {
+    top: 55px;
+    right: 46px;
+    width: 260px;
+    height: 260px;
+    border: 2px solid #9fa5f7;
+    border-radius: 50%;
+}
+.rnd-first-ele {
+    top: 0px;
+    left: 25px;
+}
+.rnd-ele {
+    top: 222px;
+    left: 65px;
+}
+.center-logo {
+    top: 120px;
+    left: 146px;
+    height: 140px;
+    width: 140px;
+}
