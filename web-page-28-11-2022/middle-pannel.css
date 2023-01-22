@@ -1,0 +1,45 @@
+.middle-pannel {
+    gap: 20px;
+    padding: 15px 20px 4px;
+    background: #fff;
+    box-shadow: 0px 10px 10px #e6e6e6;
+}
+
+.logo-sec>p {
+    margin-top: 4px;
+}
+
+.content-sec {
+    color: #090909;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.profile {
+    position: absolute;
+    top: -6px;
+    right: 182px;
+}
+
+.simple-content {
+    gap: 36px;
+    color: #7b7b7b;
+}
+
+.content-sec>p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.btn {
+    color: #16b575;
+    background: #e9f7f3;
+    border: 1px solid #d6ece6;
+    border-radius: 3px;
+    padding: 0px 8px;
+}
+
+.content-sec>span:nth-child(3) {
+    color: #7b7b7b;
+}

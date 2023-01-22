@@ -1,0 +1,125 @@
+.right-pannel {
+    width: 66%;
+    /* border: 1px solid; */
+    position: absolute;
+    left: 15%;
+    height: 100%;
+    padding: 20px 35px 0px;
+    border-right: 1px solid #eee;
+    /* overflow: hidden; */
+}
+
+.last-aside-pannel {
+    /* width:   14%; */
+    position: absolute;
+    /* border: 1px solid; */
+    left: 85%;
+}
+
+.head {
+    margin-top: 110px;
+    text-align: center
+}
+
+.two-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nxt-btn {
+    padding: 10px 15px;
+    background: #04AA6D;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.common-btn-prop {
+    padding: 10px 15px;
+    background: #04AA6D;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.watch {
+    padding: 10px 15px;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 17px;
+    background-color: #282A35;
+}
+
+.ft-size {
+    font-size: 18px;
+}
+
+.ft-size::before {
+    margin: 6px 20px;
+}
+
+.content-box {
+    padding: 30px 0px;
+    font-size: 17px;
+    background-color: #d9eee1;
+}
+
+.li-nxtBtn {
+    margin: 40px 0px;
+}
+
+.newbtn {
+    border-radius: 15px;
+    background-color: #FFF4A3;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+.relative-content {
+    position: relative;
+}
+
+.new-btns {
+    position: absolute;
+    left: -26px;
+    top: -18px;
+    transform: rotate(-38deg);
+}
+
+.content-box {
+    /* margin-left: -32px;
+    margin-right: -32px; */
+    margin: 25px -32px 0px;
+    padding: 30px 35px;
+}
+
+.line-Ele {
+    border-bottom: 1px solid #eee;
+    margin: 20px 2px;
+}
+
+.head-font {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.p-fonts {
+    font-size: 18px;
+}
+
+.exable-box {
+    margin: 20px 0px;
+}
+
+.ex-btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #e7e9eb;
+}
+
+.ex-btn:hover {
+    background-color: #04AA6D;
+}
+
+.exable-box p:nth-child(3) {
+    margin: 30px 0px;
+}

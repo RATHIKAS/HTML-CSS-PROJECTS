@@ -1,0 +1,325 @@
+.main-pannel {
+    padding: 25px 20px;
+}
+
+#assign {
+    width: 120px;
+    font-size: 17px;
+    padding: 3px 4px 3px 14px;
+    border: 1px solid #c5c4c4;
+    border-radius: 4px;
+    background: #f8f8f8;
+    position: relative;
+    margin: 10px 0px 5px;
+}
+
+#assign::after {
+    content: " ";
+    height: 1px;
+    width: 10px;
+    position: absolute;
+    left: 5px;
+    bottom: 13px;
+    background: #999999;
+    transform: rotate(45deg);
+}
+
+#assign::before {
+    content: " ";
+    height: 1px;
+    width: 10px;
+    position: absolute;
+    left: 5px;
+    bottom: 13px;
+    background: #999999;
+    transform: rotate(-45deg);
+}
+
+.element::after {
+    content: " :";
+    position: absolute;
+    color: #b0b0b0;
+    top: 0;
+    left: 225px;
+}
+
+.form-border {
+    border-bottom: 1px dashed #e7e7e7;
+}
+
+.width-ele {
+    width: 89%;
+    margin-top: 25px;
+}
+
+.forms>label {
+    position: relative;
+}
+
+.relative {
+    position: relative;
+}
+
+.control-lable {
+    padding-right: 165px;
+}
+
+.form-fields>form {
+    width: 43%;
+}
+
+.form-fields {
+    gap: 50px;
+}
+
+#one-label {
+    padding-right: 200px;
+}
+
+.empty-arrow::after {
+    content: " ";
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #888888;
+    position: absolute;
+    top: 7px;
+    left: 41px;
+}
+
+
+.empty-arrow {
+    position: relative;
+}
+
+.status {
+    -webkit-appearance: none;
+    width: 50%;
+    border: none;
+    font-size: 17px;
+    position: relative;
+    margin: 15px 0px 5px;
+    color: #454141;
+}
+
+.special-div {
+    width: 50%;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+.special-div>span:nth-child(2) {
+    color: #dc4c21;
+}
+
+.item-type {
+    margin: 15px 0px 5px;
+    padding-right: 181px;
+}
+
+#rel-arrow {
+    top: 8px;
+}
+
+#relative-arrow {
+    right: 9px;
+    top: 10px;
+}
+
+.story-flag {
+    position: relative;
+    padding-left: 21px;
+}
+
+.story-flag::before {
+    content: url('images/flag.png');
+    position: absolute;
+    left: -4px;
+}
+
+.start {
+    padding-right: 177px;
+}
+
+.end {
+    padding-right: 130px;
+}
+
+.duration {
+    padding-right: 185px;
+}
+
+.q-mark {
+    position: relative;
+}
+
+.q-mark::after {
+    content: "?";
+    padding: 0px 5px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 100%;
+    color: #bfbfbf;
+    border: 1px solid #bfbfbf;
+    position: absolute;
+    left: 68px;
+    top: 15px;
+}
+
+#q-ele::after {
+    left: 127px;
+}
+
+.estimation {
+    padding-right: 120px;
+}
+
+.hypen {
+    border: none;
+    margin: 15px 0px 5px;
+}
+
+.number-plate {
+    position: relative;
+}
+
+.number-plate::after {
+    content: url('images/number-plate.png');
+    position: absolute;
+    right: -207px;
+    top: -3px;
+}
+
+.date-image {
+    height: 22px;
+    position: absolute;
+    top: -3px;
+    right: 5px;
+}
+
+.end-date {
+    position: absolute;
+    right: 8px;
+}
+
+.date-div {
+    position: relative;
+    margin: 15px 0px 0px;
+    padding-bottom: 5px;
+}
+
+.zeroth-input {
+    width: 49%;
+    font-size: 16px;
+}
+
+.epic-label {
+    padding-right: 215px;
+}
+
+#priority {
+    padding-right: 204px;
+}
+
+.story-point {
+    position: relative;
+    padding-left: 5px;
+}
+
+.story-point::after {
+    content: " ";
+    height: 9px;
+    width: 9px;
+    left: -10px;
+    top: 7px;
+    position: absolute;
+    background-color: #878f97;
+    border-radius: 100%;
+}
+
+.release {
+    margin: 15px 0px 0px;
+    padding-bottom: 5px;
+}
+
+#default {
+    text-decoration: underline;
+    color: #3380d2;
+    font-size: 19px;
+}
+
+.button-div>button {
+    padding: 7px 20px;
+    border-radius: 3px;
+    background: #fff;
+}
+
+.button-div>button:nth-child(1) {
+    color: #888888;
+    border: 1px solid #eaeaea;
+    margin-right: 10px;
+}
+
+.button-div>button:nth-child(2) {
+    border: 1px solid #c7c7c7;
+}
+
+.common-margin {
+    margin-bottom: 25px;
+}
+
+.descript-div {
+    margin-top: 35px;
+}
+
+.descript-div>span {
+    vertical-align: top;
+    padding-left: 4px;
+    position: relative;
+    font-size: 18px;
+}
+
+.descript-div>span::after {
+    content: " ";
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #888888;
+    position: absolute;
+    top: 8px;
+    right: -17px;
+}
+
+.descript-div {
+    width: 95%;
+}
+
+.three-layer {
+    height: 20px;
+}
+
+.des-div {
+    margin-top: 30px;
+}
+
+.des-div>a {
+    color: #fff;
+    border: 1px solid;
+    background: green;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.des-div>span:nth-child(2) {
+    color: #dc4b1f;
+    padding-left: 20px;
+}
+
+.des-div>span:nth-child(4) {
+    color: #4389d5;
+}
+
+#block-arrow {
+    position: absolute;
+    right: 65px;
+    top: 12px;
+}

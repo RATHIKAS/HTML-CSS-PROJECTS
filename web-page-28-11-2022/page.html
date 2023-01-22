@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-pannel flx al-items">
+            <div class="left-sec flx al-items">
+                <img alt="hamburger-menu" title="hamburger-menu" src="images/hamburger-menu.png" class="images">
+                <img alt="book-menu" title="book-menu" src="images/star.png" class="small-img">
+                <ul class="flx al-items">
+                    <li><a href="#">Details</a></li>
+                    <li class="rel-position description"><a href="#">Description</a></li>
+                    <li><a href="#">Comments</a></li>
+                    <li><a href="#">Attachments</a></li>
+                    <li><a href="#">Subitems</a></li>
+                    <li><a href="#">Status Timeline</a></li>
+                    <li><a href="#">Log Hours</a></li>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Bitbucket</a></li>
+                    <li><a href="#">GitLab</a></li>
+                    <li><a href="#">CheckList</a></li>
+                    <li><a href="#">Zoho Repository</a></li>
+                </ul>
+                <img alt="round-menu" title="round-menu" src="images/menu.png" class="small-img">
+            </div>
+            <div class="right-sec ">
+                <span class="left-arrow rel-position "></span>
+                <span class="right-arrow rel-position "></span>
+            </div>
+        </div>
+        <div class="middle-pannel flx">
+            <div class="logo-sec">
+                <img alt="flag-image" title="flag-image" src="images/logo-flag.png">
+                <p>KB-1716</p>
+            </div>
+            <div class="content-sec">
+                <p>As an Admin, I Would like to list articles in Alphabetic order.</p>
+                <span class="rel-position flx simple-content">
+                    Created by Rajaram Iyyankalai on 12/sep/2022 10:13 AM
+                    <img alt="profile-image" title="profile-image" src="images/profile.png" class="profile">
+                    <span>Follow</span>
+                </span>
+                <span>Tags : <button class="btn">+</button></span>
+            </div>
+        </div>
+        <div class="main-pannel">
+            <a href="#" id="default">Default Section</a>
+            <form class="forms width-ele form-border">
+                <label for="assign" class="element control-lable">Assigned to</label>
+                <button id="assign">Unassigned</button>
+            </form>
+            <div class="form-fields flx">
+                <form action="#">
+                    <div class="forms form-border">
+                        <label for="status" class="element" id="one-label">Status</label>
+                        <select name="status" id="status" class="status">
+                            <option value="to-do">To do</option>
+                        </select>
+                        <span class="empty-arrow"></span>
+                    </div>
+                    <div class="forms flx  form-border">
+                        <label for="assign" class="element item-type">Item Type</label>
+                        <div class="flx special-div">
+                            <span class="story-flag">Story</span>
+                            <span class="clr-prop">Default</span>
+                        </div>
+                        <span class="empty-arrow" id="rel-arrow"></span>
+                    </div>
+                    <div class="forms  form-border date-div">
+                        <label for="assign" class="element start">Start Date</label>
+                        <img alt="date-image" title="date-image" src="images/date.png" class="date-image">
+                    </div>
+
+                    <div class="forms form-border q-mark">
+                        <label for="assign" class="element duration">Duration</label>
+                        <input type="text" placeholder="- -" class="hypen">
+                        <span class="number-plate"></span>
+                    </div>
+                </form>
+                <form action="#">
+                    <div class="forms form-border">
+                        <label for="status" class="element epic-label">Epic</label>
+                        <select name="status" id="status" class="status">
+                            <option value="to-do">KB Enhancements</option>
+                        </select>
+                        <span class="empty-arrow"></span>
+                    </div>
+                    <div class="forms flx  form-border">
+                        <label for="assign" class="element item-type" id="priority">Priority</label>
+                        <div class="flx special-div">
+                            <span class="story-point">None</span>
+                            <span class="clr-prop">Default</span>
+                        </div>
+                        <span class="empty-arrow" id="relative-arrow"></span>
+                    </div>
+                    <div class="forms  form-border date-div">
+                        <label for="assign" class="element end">End Date</label>
+                        <img alt="date-image" title="date-image" src="images/date.png" class="date-image end-date">
+                    </div>
+
+                    <div class="forms form-border q-mark " id="q-ele">
+                        <label for="assign" class="element estimation">Estimation Points</label>
+                        <input type="text" placeholder="0" class="hypen zeroth-input">
+                        <span class="empty-arrow" id="block-arrow"></span>
+                    </div>
+                </form>
+            </div>
+            <form class="forms width-ele form-border release common-margin">
+                <label for="assign" class="element ">Release</label>
+            </form>
+            <div class="button-div common-margin">
+                <button>Update</button>
+                <button>Cancel</button>
+            </div>
+            <footer>
+                <div class="descript-div form-border ">
+                    <img alt="three-layer-menu" title="three-layer-menu" src="images/three-layer-menu.png"
+                        class="three-layer">
+                    <span>Description</span>
+                </div>
+                <p>
+                    As an Admin, I Would like to list articles in Alphabetic order.In addition to having option to
+                    choose
+                    between created & modified time, it would be great if Alphabetic order is also provided.
+                </p>
+                <div class="des-div">
+                    <a href="#">Edit Description</a>
+                    <span>Note:</span>
+                    <span>We have a new editor!</span>
+                    <span>Give it a try!</span>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+.center-pannel {
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px 0px 12px;
+    background: #282a35;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.language-lists {
+    display: flex;
+    align-items: center;
+}
+
+.icons-lists {
+    display: flex;
+    column-gap: 20px;
+}
+
+.small-home {
+    height: 25px;
+    width: 30px;
+    border: 1px solid;
+
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+}
+
+.small-world {
+    height: 23px;
+    width: 23px;
+}
+
+.language-lists li a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+
+.language-lists li {
+    padding: 12px 20px;
+}
+
+.language-lists>li:hover {
+    background: #000000;
+}
+
+.clr {
+    filter: invert(1) sepia(98%) saturate(162%) hue-rotate(248deg) brightness(112%) contrast(89%);
+
+}

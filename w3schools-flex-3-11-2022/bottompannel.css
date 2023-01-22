@@ -1,0 +1,55 @@
+.bottom-pannel {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
+
+
+.left-menu {
+    height: 100%;
+    width: 15%;
+    overflow-y: scroll;
+    /* position: fixed; */
+}
+
+.left-innerLists {
+    /* padding: 10px 16px 0; */
+    padding: 10px 0px;
+}
+
+.left-innerLists {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+    /* font-size: 10px; */
+}
+
+.left-innerLists>h2 {
+    font-size: 19px;
+    font-weight: 500;
+    color: #000;
+}
+
+.left-innerLists>a {
+    font-size: 16px;
+    padding: 3px 16px;
+}
+
+.left-innerLists>h2 {
+    padding: 0px 16px;
+}
+
+
+.left-innerLists a:hover {
+    background-color: #cccccc;
+
+}
+
+.center-pannel {
+    height: 44px;
+}
+
+/* .left-innerLists>a {
+    margin: 0px 16px;
+} */
