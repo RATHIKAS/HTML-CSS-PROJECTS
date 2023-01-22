@@ -1,0 +1,20 @@
+.bottom-pannel {
+    display: var(--disp);
+    padding: 10px;
+    margin: var(--marg);
+    grid-template-columns: repeat(5, auto);
+    justify-items: var(--align);
+}
+
+.bottom-pannel>li {
+    display: var(--disp);
+    grid-template-rows: 60% 30%;
+}
+
+.bottom-pannel>li:nth-child(1) {
+    color: #03bdd4;
+}
+
+.bottom-pannel>li>img {
+    justify-self: var(--align);
+}

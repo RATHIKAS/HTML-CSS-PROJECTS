@@ -1,0 +1,108 @@
+:root {
+    --disp: grid;
+    --align: center;
+    --clr: #fff;
+    --repeat: repeat(3, auto);
+    --marg: 0;
+    --radius: 30px;
+    --none: none;
+}
+
+body {
+    background-color: #000;
+}
+
+.container {
+    background-color: var(--clr);
+    width: 430px;
+    display: var(--disp);
+    grid-template-rows: var(--repeat);
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+}
+
+.dataField {
+    padding: 20px 30px;
+}
+
+.company {
+    border-radius: 50%;
+}
+
+.star {
+    color: #c4c7ca;
+}
+
+.head {
+    margin: var(--marg);
+}
+
+.top {
+    display: var(--disp);
+    grid-template-rows: var(--repeat);
+    gap: 10px;
+    text-align: var(--align);
+}
+
+form {
+    display: var(--disp);
+    grid-template-rows: repeat(4, auto);
+    gap: 20px;
+}
+
+form>div {
+    width: 370px;
+    display: var(--disp);
+    gap: 4px;
+    grid-template-rows: repeat(2, auto);
+}
+
+form>div>label {
+    font-weight: 600;
+}
+
+form>div>input {
+    padding: 13px 16px;
+    font-size: 17px;
+    background-color: #f3f5f6;
+    border-radius: var(--radius);
+    border: var(--none);
+}
+
+form>div>input:focus {
+    outline: var(--none);
+}
+
+::placeholder {
+    color: #c4c7ca;
+}
+
+.signUp {
+    padding: 15px 50px;
+    text-align: var(--align);
+    background-color: #00bdd5;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: var(--none);
+}
+
+.before {
+    text-align: var(--align);
+    padding-bottom: 30px;
+    color: #3f4041ba;
+}
+
+.before>span {
+    color: #00bdd5;
+    padding-left: 5px;
+}
+
+.eye {
+    position: relative;
+}
+
+.hidePassword {
+    position: absolute;
+    right: 14px;
+    bottom: 11px;
+}

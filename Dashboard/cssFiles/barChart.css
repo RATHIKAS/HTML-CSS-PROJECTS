@@ -1,0 +1,265 @@
+li {
+    list-style: var(--no);
+}
+
+.barChart {
+    padding: var(--padd);
+    margin: var(--marg);
+    height: 160px;
+    justify-items: var(--align);
+    display: var(--disp);
+    grid-template-columns: repeat(8, auto);
+    gap: 10px;
+    align-items: end;
+}
+
+.barChart>li {
+    position: var(--relate);
+}
+
+.commonRelate {
+    width: 15px;
+    position: var(--absolute);
+    bottom: 0;
+    background-color: #00bdd5;
+}
+
+.specialColor {
+    width: 15px;
+    background-color: var(--purble);
+}
+
+.moon {
+    height: 100px;
+}
+
+.moon>span {
+    height: 50px;
+}
+
+.Mercury {
+    height: 70px;
+}
+
+.Mercury>span {
+    height: 35px;
+}
+
+.Venus {
+    height: 140px;
+}
+
+.Venus>span {
+    height: 70px;
+}
+
+.Mars {
+    height: 120px;
+}
+
+.Mars>span {
+    height: 60px;
+}
+
+.Jupiter {
+    height: 90px;
+}
+
+.Jupiter>span {
+    height: 50px;
+}
+
+.Saturn {
+    height: 140px;
+}
+
+.Saturn>span {
+    height: 70px;
+}
+
+.Uranus {
+    height: 90px;
+}
+
+.Uranus>span {
+    height: 50px;
+}
+
+.Neptune {
+    height: 140px;
+}
+
+.Neptune>span {
+    height: 70px;
+}
+
+.relate {
+    margin-top: 10px;
+    position: var(--relate);
+    text-align: var(--align);
+    font-size: 14px;
+}
+
+.service {
+    padding-right: 30px;
+}
+
+
+
+.service::before {
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: var(--radi);
+    position: var(--absolute);
+    left: 87px;
+    bottom: 3px;
+    background-color: var(--blue);
+}
+
+.sale::before {
+    content: ' ';
+    position: var(--absolute);
+    height: 10px;
+    width: 10px;
+    border-radius: var(--radi);
+    left: 170px;
+    bottom: 3px;
+    background-color: var(--purble);
+}
+
+.seeAll {
+    color: #989ca0;
+}
+
+.bothDiv {
+    display: var(--disp);
+    gap: 10px;
+    grid-template-rows: var(--repeat);
+    padding: 10px 7px;
+    border: 2px solid var(--borderClr);
+    border-radius: 5px;
+}
+
+.bothDiv>div {
+    display: var(--disp);
+    grid-template-columns: 12% 64% 20%;
+    gap: 9px;
+}
+
+.margSec {
+    margin: 0px 0px 2px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.orderItemList {
+    padding: 6px 12px;
+    border: 1px solid var(--borderClr);
+    border-radius: 5px;
+}
+
+.orderItemList>div {
+    display: var(--disp);
+    gap: 8px;
+    grid-template-columns: 9% auto 12%;
+    border-bottom: 1px solid var(--border);
+    padding: 7px;
+    position: var(--relate);
+    align-items: var(--align);
+}
+
+.orderItemList>div>img {
+    justify-self: var(--align);
+}
+
+.orderItemList>div:nth-child(4) {
+    border-bottom: var(--no);
+}
+
+.arrows::after {
+    content: '';
+    background-color: #cecfd2;
+    height: 1px;
+    width: 8px;
+    transform: rotate(45deg);
+    position: var(--absolute);
+    right: 7px;
+    top: 14px;
+}
+
+.arrows::before {
+    content: '';
+    background-color: #cecfd2;
+    height: 1px;
+    width: 8px;
+    transform: rotate(-45deg);
+    position: var(--absolute);
+    right: 7px;
+    top: 19px;
+}
+
+.bi-chart {
+    display: var(--disp);
+    border: 1px solid var(--border);
+    padding: 12px 23px;
+    border-radius: 5px;
+    grid-template-columns: 60% 40%;
+}
+
+.chart {
+    height: 100px;
+    width: 100px;
+    border-radius: var(--radi);
+    background: radial-gradient(#fff 40%, transparent 20%), conic-gradient(#0f92f3 1deg 80deg, #1cd65a 81deg 220deg, #f09834 221deg 360deg);
+}
+
+.dottedPoints {
+    display: var(--disp);
+    grid-template-rows: var(--threeRepeat);
+    gap: 8px;
+    padding-left: 20px;
+}
+
+.commRelate {
+    font-size: 13px;
+    position: var(--relate);
+}
+
+.segA::before {
+    content: '';
+    position: var(--absolute);
+    height: 10px;
+    width: 10px;
+    top: 5px;
+    left: -18px;
+    background-color: #0c94f8;
+    border-radius: 50%;
+}
+
+
+.segB::before {
+    content: '';
+    position: var(--absolute);
+    height: 10px;
+    width: 10px;
+    top: 5px;
+    left: -18px;
+    background-color: #1cd756;
+    border-radius: var(--radi);
+}
+
+.segC::before {
+    content: '';
+    position: var(--absolute);
+    height: 10px;
+    width: 10px;
+    top: 5px;
+    left: -18px;
+    background-color: #e89b3e;
+    border-radius: var(--radi);
+}
+
+.top-pannel {
+    border-bottom: 1px solid var(--border);
+}
