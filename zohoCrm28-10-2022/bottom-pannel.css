@@ -1,0 +1,155 @@
+.btm-pannel {
+    margin: 0 11%;
+}
+
+.crm-head {
+    padding: 20px 85px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.zh-crm {
+    float: left;
+}
+
+.bx-shw {
+    box-shadow: -6px 0 20px #eee;
+}
+
+.bx-shadow {
+    box-shadow: 6px 0 20px #eee;
+}
+
+.pdg-part {
+    background-color: #fff;
+    border: 1px solid #e8eaec;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.divide-element>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bdr-line {
+    border-bottom: 1px solid #e8eaec;
+}
+
+.divide-element>div {
+    margin-bottom: 15px;
+}
+
+.divide-element {
+    font-size: 15px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.three-lists {
+    padding: 0 35px 0 30px;
+}
+
+.under-element>li:nth-child(3) {
+    text-decoration: line-through;
+    color: #acaaaf;
+}
+
+.three-lists>li {
+    margin-bottom: 10px;
+}
+
+.separate-lists {
+    color: #3a3a3a;
+    font-size: 14px;
+    padding: 5px 5px 0px 5px;
+}
+
+.pdg-content {
+    padding: 1rem;
+}
+
+.engagebay {
+    background-color: #693f93;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.crm-head {
+    padding: 20px 85px;
+}
+
+
+.crm-head>h3 {
+    letter-spacing: 1.5px;
+}
+
+.span-tag {
+    font-weight: 600;
+}
+
+.right-side-element {
+    float: right;
+    margin-left: 40px;
+}
+
+.product-lists>li {
+    margin-bottom: 15px;
+}
+
+.product-lists>li {
+    position: relative;
+}
+
+.product-lists>li::before {
+    content: " ";
+    position: absolute;
+    top: 5px;
+    left: -31px;
+    width: 18px;
+    height: 1px;
+    border: 1px solid #ff7342;
+    background-color: #ff7342;
+    transform: rotate(-45deg);
+}
+
+.product-lists>li::after {
+    content: " ";
+    position: absolute;
+    top: 9px;
+    left: -34px;
+    width: 7px;
+    height: 1px;
+    border: 1px solid #ff7342;
+    background-color: #ff7342;
+    transform: rotate(45deg);
+}
+
+.form-act {
+    padding: 8px 30px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #ff7342;
+    border-radius: 50px;
+    box-shadow: 0 10px 50px #d4c8c4;
+}
+
+.free-sign-up {
+    padding: 14px 34px;
+    border-radius: 30px;
+    border: 2px solid #ff7342;
+    font-size: 16px;
+    color: #fff;
+    background: #ff7342;
+}
+
+.email {
+    border: none;
+    font-size: 18px;
+    width: 65%;
+}
+
+.email:focus {
+    outline: none;
+}

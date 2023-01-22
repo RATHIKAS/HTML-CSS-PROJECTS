@@ -1,0 +1,23 @@
+    @media screen and (max-width:1024px) {
+        .ul-menu {
+            display: none;
+        }
+
+        .menu-box {
+            display: block;
+        }
+
+        .right-side-element {
+            float: right;
+            width: 100%;
+        }
+
+        .left-side-element {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+        }
+
+        .form-act {
+            width: 100%;
+        }
+    }
