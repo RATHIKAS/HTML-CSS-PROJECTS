@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<head>
+    <title>FormCreation</title>
+    <link rel="stylesheet" href="formCreation.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigation">
+            <form>
+                <div class="header">
+                    <p>Exit Interview Questionnaire</p>
+                </div>
+                <div class="row">
+                    <div>
+                        <label for="names">Name of the Candidate</label>
+                    </div>
+                    <div class="element">
+                        <div class="inputs">
+                            <input type="text" id="names" name="fname" placeholder="First">
+                        </div>
+                        <div class="inputs">
+                            <input type="text" id="names" name="lname" placeholder="Last">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <label for="answer">Long answer</label>
+                    </div>
+                    <div class="element">
+                        <textarea id="area" name="area" rows="5" cols="50"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <label for="date">Date Started</label>
+                    </div>
+                    <div class="element">
+                        <input type="date" id="date">
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <label for="dropdown">Dropdown</label>
+                    </div>
+                    <div class="element">
+                        <select name="values" id="optionEle">
+                            <option value="one">pleaseselect</option>
+                            <option value="two">two</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="element">
+                        <label for="buttons">Multiple choice</label>
+                    </div>
+                    <div class="choice">
+                        <input type="checkbox" id="buttons" name="first" value="choice1">
+                        <span class="contents">choice1</span>
+                    </div>
+                    <div class="choice">
+                        <input type="checkbox" id="buttons" name="second" value="choice2">
+                        <span class="contents">choice2</span>
+                    </div>
+                    <div class="choice">
+                        <input type="checkbox" id="buttons" name="third" value="choice3">
+                        <span class="contents">choice3</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>which of the followings is the reason behind your resignation ?</p>
+                    <div class="radioBtn">
+                        <div>
+                            <input type="radio" id="satisfation">
+                            <label for="satisfaction">satisfactory Salary</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Unsatisfation">
+                            <label for="Unsatisfaction">Insufficient Career Growth</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="other">
+                            <label for="other">others</label>
+                        </div>
+                    </div>
+                </div>
+                <div><button class="submit">send</button></div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
