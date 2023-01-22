@@ -1,0 +1,272 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .navigation {
+        width: 100%;
+        padding-left: 2px;
+        display: flex;
+    }
+
+    .asideContainer {
+        width: 20%;
+        height: 100vh;
+        background-color: #2c334e;
+    }
+
+    .mainContainer {
+        width: 80%;
+    }
+
+    .head {
+        font-size: 25px;
+        padding: 20px;
+        color: #fff;
+        font-family: arial;
+        border-bottom: 1px solid #4b5168;
+    }
+
+    .searchEle {
+        display: flex;
+        padding: 20px;
+        column-gap: 12px;
+    }
+
+    .search {
+        color: #919290;
+        font-size: 20px;
+    }
+
+    .lineEle {
+        border: 1px solid #4b5168;
+        width: 320px;
+        margin-left: 20px;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .contentEle {
+        overflow-y: scroll;
+        font-size: 19px;
+        height: 835px;
+        padding-left: 20px;
+        color: #fff;
+        font-family: Arial;
+    }
+
+    .contentEle div {
+        line-height: 45px;
+        font-family: Arial;
+    }
+
+    .line {
+        border-bottom: 2px solid #f6f8fb;
+        margin-right: 310px;
+    }
+
+    .letterSize::first-letter {
+        font-size: 23px;
+    }
+
+    .separateEle {
+        margin-top: 15px;
+    }
+
+    .element {
+        margin-top: 20px;
+    }
+
+    .diffColor {
+        color: #5cacee;
+    }
+
+    .star {
+        width: 65px;
+        height: 50px;
+        clip-path: polygon(100% 0%, 100% 0%, 90% 100%, 0% 6%);
+    }
+
+    .starEle {
+        position: absolute;
+    }
+
+    .elements {
+        left: 36px;
+        top: 440px;
+    }
+
+    .ele {
+        left: 50px;
+        top: 530px;
+    }
+
+    .list {
+        line-height: 10px;
+    }
+
+    .headerSection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 19px 90px;
+        padding-right: 30px;
+        font-size: 20px;
+        border-bottom: 1px solid #ddd;
+        font-family: arial;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 5px 10px;
+        border: 1px solid #5cacee;
+        color: #5cacee;
+        background-color: #fff;
+        font-family: arial;
+        border-radius: 2px;
+    }
+
+    .build {
+        align-items: center;
+    }
+
+    .extensionContent {
+        width: 100%;
+        display: flex;
+    }
+
+    .leftContainer {
+        width: 68%;
+        padding: 60px 90px;
+    }
+
+    h1 {
+        font-size: 35px;
+        font-family: arial;
+    }
+
+    .exten-Content {
+        color: #645e5ee8;
+        font-size: 18px;
+        margin: 20px 0px;
+        line-height: 30px;
+        position: relative;
+    }
+
+    .rightContainer {
+        width: 24%;
+        margin: 20px 30px;
+        padding: 30px;
+    }
+
+    .exten-button {
+        font-size: 17px;
+        border-radius: 2px;
+        background-color: #1483dd;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+    }
+
+    .long-line {
+        width: 60%;
+        margin-left: 90px;
+        border: 1px solid #f0f0f0;
+        position: absolute;
+        top: 400px;
+    }
+
+    .r-Extension {
+        margin-right: 40px;
+        margin-top: 45px;
+        width: 23%;
+    }
+
+    .extension-Image {
+        height: 255px;
+        width: 300px;
+    }
+
+    .ex-footer {
+        font-family: sans-serif;
+        font-size: 16px;
+        width: 100%;
+        display: flex;
+        align-content: flex-start;
+        justify-content: space-evenly;
+    }
+
+    .build-Extension {
+        width: 24%;
+    }
+
+    .upload-Extension {
+        width: 28%;
+    }
+
+    .install-Extension {
+        width: 25%
+    }
+
+    .images img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .items ul li {
+        list-style-type: number;
+        color: #000000a8;
+        font-family: arial;
+    }
+
+    .buildList-Items ul li {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .installList-Items ul li {
+        list-style: disc;
+        margin-top: 20px;
+        color: #1483dd;
+        font-family: arial;
+    }
+
+    .build-items {
+        color: #1483dd;
+
+    }
+
+    .uploadList-Items ul li {
+        margin-top: 20px;
+        color: #000000a8;
+        font-family: arial;
+    }
+
+    .uploadLists {
+        margin-top: 20px;
+    }
+
+    .li-ele ul li {
+        margin-left: 20px;
+    }
+
+    .headSection {
+        margin-top: 15px;
+    }
+
+    .read {
+        margin-top: 20px;
+        color: #8f9192;
+    }
+
+    .upload {
+        color: #333333;
+    }
