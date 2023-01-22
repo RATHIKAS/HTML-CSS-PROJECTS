@@ -1,0 +1,20 @@
+.three-pannel>ul {
+    padding: 8px 0px 8px 52px;
+    border-bottom: 1px solid #e9ebec;
+}
+
+.three-pannel>ul>li>a {
+    font-size: var(--small);
+    color: #818283;
+}
+
+.three-pannel>ul>li {
+    display: var(--display);
+    padding: 0px 146px 0px 0px;
+}
+
+.smart-user>img {
+    height: 19px;
+    left: -33px;
+    position: var(--position);
+}

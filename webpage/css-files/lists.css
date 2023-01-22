@@ -1,0 +1,47 @@
+.special-color {
+    color: #2c92e1;
+}
+
+.order-sec {
+    padding: 1px 0px 2px 48px;
+    border-bottom: 1px dotted #e9ebecc9;
+}
+
+.order-sec :is(div, p, a, span) {
+    display: var(--display);
+    font-size: var(--small);
+}
+
+.picture :is(img, span) {
+    display: var(--display);
+    vertical-align: var(--align);
+}
+
+.picture>span {
+    padding-left: 7px;
+}
+
+.order-sec>:nth-child(1) {
+    width: 16%;
+}
+
+.order-sec>:nth-child(2) {
+    width: 15.2%;
+}
+
+.order-sec>:nth-child(3) {
+    width: 17.5%;
+}
+
+.order-sec>:nth-child(4) {
+    width: 16%;
+}
+
+.four-padg>:nth-child(5) {
+    width: 10%;
+}
+
+.comm-prop {
+    width: 42px;
+    height: 39px;
+}

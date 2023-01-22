@@ -1,0 +1,135 @@
+.bottom-pannel {
+    margin-top: 10px;
+}
+
+.aside-pannel {
+    width: 18%;
+    float: var(--float);
+}
+
+.aside-pannel>h3 {
+    padding: 12px 20px;
+    border: 1px solid #e9ebec;
+    border-left: 1px solid transparent
+}
+
+.aside-pannel>div {
+    background-color: var(--bc-color);
+}
+
+.inputs-sec {
+    border: none;
+    width: 200px;
+    background-color: var(--bc-color);
+}
+
+.inputs-sec::placeholder {
+    color: #bababf;
+}
+
+
+.inputs-sec:focus {
+    outline: none;
+}
+
+.searches {
+    padding: 10px 10px 10px 20px;
+}
+
+.searches>span {
+    vertical-align: var(--align);
+}
+
+.underline {
+    border-bottom: 1px solid #e9ebec;
+    margin-left: 0px;
+    margin-right: 3px;
+}
+
+.list-items {
+    height: 585px;
+    overflow-y: scroll;
+}
+.list-items>ul {
+    padding-top: 9px;
+}
+
+.list-items>ul>li>a {
+    color: var(--clr);
+    font-size: 15px;
+    padding: 0px 0px 0px 20px;
+}
+
+.list-items>ul>li {
+    padding: 10px 20px 10px 0px;
+}
+
+
+.small-line::after {
+    content: " ";
+    width: 16px;
+    position: var(--position);
+    top: 32px;
+    left: 21px;
+    border-bottom: 3px solid var(--clr);
+}
+
+.comm-relate {
+    position: var(--relate);
+}
+
+.stars {
+    height: 20px;
+    position: var(--position);
+    clip-path: polygon(100% 0, 100% 42%, 50% 89%, 0 6%);
+    left: 50px;
+    bottom: 14px;
+}
+
+#email-tag {
+    color: #818283;
+}
+
+.email-ele::after {
+    content: " ";
+    border-top: var(--transparent);
+    border-bottom: var(--transparent);
+    border-left: 4px solid #999999;
+    height: 0px;
+    top: 15px;
+    position: var(--position);
+    right: 15px;
+}
+
+.help-center::after {
+    content: " ";
+    border-top: var(--transparent);
+    border-bottom: var(--transparent);
+    border-left: 4px solid #666666;
+    transform: rotate(90deg);
+    height: 0px;
+    top: 15px;
+    position: var(--position);
+    right: 15px;
+}
+
+.help-center {
+    background-color: #e8ebf2;
+}
+
+.ul-lists>li {
+    padding: 9px 0px;
+}
+
+.ul-lists {
+    padding: 10px 0px 0px 45px;
+}
+
+.ul-lists>li>a {
+    color: #787878;
+    font-size: var(--ft-size);
+}
+
+#user-special {
+    color: #2c92e1;
+}
