@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>REGISTRATION FORM</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <h1>REGISTRATION FORM</h1>
+            </legend>
+
+
+            <p> Name <input type="text" placeholder="Employee name"></p>
+            <p> Email <input type="text" placeholder="examble@gmail.com"></p>
+            <p>
+                <label>Designation</label>
+                <select>
+
+                    <option value="Developer">Developer</option>
+
+                    <option value="Designer">Designer</option>
+
+                    <option value="Texter">Texter</option>
+                </select>
+            </p>
+            <p>
+                <label for="dob">Date of birth</label>
+                <input type="date" name="dob" Id="dob" placeholder="dd/mm/yyyy">
+            </p>
+            <p>
+                <label for="num">Employee Id </label>
+                <input type="number" placeholder="13457" id="num" min="100" max="1000">
+            </p>
+            <p>
+                <label><b>select gender</b></label><br>
+                <input type="radio" name="Male" values="Male" checked="checked">Male<br>
+                <input type="radio" name="Female">Female<br>
+                <input type="radio" name="Others">others
+            </p>
+            <p><b>Bio</b><br>
+                <textarea cols="25" rows="5">Start typing here...</textarea> <br>
+                Tell us about yourself in fewer than 250 characters<br><br>
+
+                <input type="checkbox"> Agree to the terms and conditions
+            </p>
+            <p>
+
+
+                <button type="submit" value="submit">submit</button>
+                <button type="close" value="close">close</button>
+            </p>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
