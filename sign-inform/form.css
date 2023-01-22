@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(to right, #3c5db4, #801ea1);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.container {
+    margin: 0 auto;
+    width: 330px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    background: #fff;
+    box-shadow: 0px 0px 5px #b6b3b5;
+}
+
+.container>h1 {
+    padding: 18px 0px;
+    text-align: center;
+    border-bottom: 1px solid #b6b3b5;
+}
+
+.line-element {
+    display: block;
+}
+
+.form-sec>:nth-child(1) {
+    color: #0072d2;
+}
+
+.form-sec>:nth-child(2) {
+    border-bottom: 1px solid #0072d2;
+}
+
+.form-sec>:nth-child(3) {
+    margin-top: 30px;
+    border-bottom: 1px solid #b6b3b5;
+}
+
+.ft-size {
+    font-size: 14px;
+}
+
+.form-sec>:nth-child(4) {
+    text-decoration: none;
+    color: #b6b3b5;
+}
+
+.form-sec>:last-child {
+    text-align: center;
+}
+
+.sign-up {
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.form-sec {
+    padding: 0px 60px 20px;
+}
+
+.commmon-prop {
+    margin-bottom: 20px;
+}
+
+.border-contents {
+    border: none;
+    border-bottom: 1px solid;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.border-contents:focus {
+    outline: none;
+}
+
+.btn {
+    padding: 10px 0px;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 20px;
+    background: #0072d2;
+    border: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 475px) {
+    .container {
+        max-width: 100%;
+    }
+}
