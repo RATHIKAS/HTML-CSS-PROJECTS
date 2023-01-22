@@ -1,0 +1,94 @@
+.third-pannel {
+    padding: 0px 0px 0px 54px;
+    overflow-y: scroll;
+    justify-content: space-between;
+}
+
+.contact-sides {
+    width: 85%;
+    flex-direction: column;
+}
+
+.letter {
+    padding: 14px;
+    height: 16px;
+    width: 16px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #adadad;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #adadad;
+}
+
+.rows {
+    padding: 25px 35px 25px 0px;
+    font-size: 14px;
+    border-bottom: 1px solid #e9ebec;
+    justify-content: space-between;
+}
+
+.elements {
+    gap: 2px;
+    flex-direction: column;
+}
+
+.elements>p {
+    margin: 0px 0px 6px 0px;
+}
+
+.over-all {
+    gap: 15px;
+}
+
+.head-name {
+    font-weight: 600;
+}
+
+.elements>span {
+    font-size: 13px;
+    color: #666768;
+}
+
+.first-row>div {
+    width: 27%;
+}
+
+.common-special {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.same-width {
+    width: 200px;
+}
+
+.some {
+    width: 119px;
+}
+
+.source {
+    width: 202px;
+}
+
+.zoho {
+    width: 132px;
+}
+
+.uidemo {
+    width: 140px;
+}
+
+.alphabet-side {
+    padding-right: 10px;
+    margin: 0;
+    display: flex;
+    font-size: 13px;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.alphabet-side {
+    width: 2%;
+}
