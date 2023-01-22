@@ -1,0 +1,88 @@
+@media only screen and (max-width:1024px) {
+    .top-pannel {
+        padding: 0 1rem;
+        display: grid;
+        grid-template-columns: 11% 6%;
+        align-items: center;
+    }
+
+    .middle-pannel {
+        padding: 0 1rem;
+        grid-template-columns: 100%;
+    }
+
+    .bottom-pannel {
+        padding: 0 1rem;
+        grid-template-columns: 100%;
+        grid-template-rows: 80% 60%;
+    }
+
+    .overall-boxes {
+        display: grid;
+        grid-template-rows: repeat(4, 23%);
+        grid-template-columns: 100%;
+    }   
+
+    .department {
+        display: flex;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .section-box {
+        display: grid;
+        grid-template-rows: 4% auto;
+    }
+
+    .top-icons {
+        padding: 0;
+    }
+
+    .zh-top-pannel-lists ul {
+        display: none;
+    }
+
+    .three-layer-menu {
+        display: block;
+    }
+
+    .right-div {
+        display: none;
+    }
+
+    .aside-section {
+        grid-template-columns: 100%;
+    }
+
+
+    .down-arrow {
+        position: relative;
+    }
+
+    .book-lists {
+        grid-template-columns: 5% auto;
+    }
+
+    .recent-lists-items {
+        position: absolute;
+        left: -87px;
+    }
+
+}
+
+@media only screen and (min-width:1025px) {
+    .top-pannel {
+        display: flex;
+    }
+
+    .list-items {
+        display: flex;
+    }
+
+    .book-lists>a {
+        white-space: nowrap;
+        width: 80%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
